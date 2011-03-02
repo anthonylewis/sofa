@@ -1,0 +1,33 @@
+See the Python Web Modules at http://www.pythonweb.org/projects/webmodules/
+for a good framework in Python (and a very clean website).
+
+Also, see http://www.sqlobject.org/ for an interesting ORM.
+
+Also, see http://wact.sourceforge.net/
+
+See the Active Record documentation at http://ar.rubyonrails.org/ for some
+very good information.  Especially ActiveRecord::Base.  Also see the Action 
+Pack documentation at http://ap.rubyonrails.org/
+
+The Ruby on Rails FormHelper object has some interestind ideas for forms:
+http://api.rubyonrails.org/classes/ActionView/Helpers/FormHelper.html
+
+Active Record represents the "Model" part of MVC.
+
+For more ideas see the ArsDigita Community System (ACS) at 
+http://philip.greenspun.com/doc/index
+
+I like the idea of bookmark system, file storage, and address book
+
+Methods for my "Table" class - CRUD (Insert, Select, Update, Delete)
+
+Table()						// constructor
+save()						// insert or update this row
+delete()					// delete this row
+count( $where )					// count the number of rows
+get( $id )					// find a row by ID
+get_list( $where, $order, $count, $offset )	// get a list of rows
+next()						// move to the next row
+columns()					// get the column names
+free_result()					// free the result set
+

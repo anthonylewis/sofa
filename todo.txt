@@ -1,0 +1,7 @@
+1.  Remove the Result class and just use an array to return database queries.
+
+2.  Refactor ../userman/ to use SOFA...
+	1.  Use the Database and Session classes
+	2.  Create a User class that extends Table
+
+3.  File Manager

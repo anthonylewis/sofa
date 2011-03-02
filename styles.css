@@ -1,0 +1,169 @@
+
+body {
+	font-family: arial, "bitstream vera sans", helvetica, sans-serif;
+}
+
+.wholepage {
+	background: #eee;
+	margin: 0 auto;
+	padding: 0;
+	width: 730px;
+	border: 1px solid #000;
+}
+
+.content {
+	background: #fff;
+	border-right: 1px solid #ccc;
+	padding: 10px;
+	float: left;
+	width: 500px;
+}
+
+.sidebar {
+	float: right;
+	padding: 10px;
+	width: 180px;
+}
+
+.footer {
+	border-top: 1px solid #ccc;
+	clear: both;
+	padding: 10px;
+}
+
+.entry {
+	padding: 0 0 10px 0;
+}
+
+.tagline {
+	font-size: 80%;
+	color: #333;
+	margin: 10px 0;
+}
+
+p {
+	padding: 0;
+	margin: 10px 0;
+}
+
+h1 {
+	font-size: 120%;
+	background: #223377;
+	color: white;
+	margin: 0;
+	padding: 10px;
+	border-top: 5px solid #015;
+	border-bottom: 5px solid #459;
+}
+
+h1 a {
+	color: white;
+	text-decoration: none;
+}
+
+h1 a:hover {
+}
+
+h2 {
+	font-size: 105%;
+	color: #333;
+	margin: 0 0 3px 0;
+	padding: 2px 0 0 0;
+	border-bottom: 1px solid #eee;
+}
+
+h2 a {
+	color: #333;
+	text-decoration: none;
+}
+
+h2 a:hover {
+	color: #339;
+}
+
+.addsite {
+	width: 275px;
+	padding: 5px;
+	margin: 0;
+	border: 1px solid #ccc;
+	background: #f9f9f9;
+}
+
+form {
+	margin: 0;
+	padding: 0;
+}
+
+label,input {
+	display: block;
+	float: left;
+	margin: 0 0 5px 0;
+}
+
+input {
+	width: 200px;
+	border: 1px solid #999;
+}
+
+label {
+	font-weight: bold;
+	text-align: left;
+	width: 55px;
+}
+
+textarea {
+	width: 200px;
+	margin: 0 0 5px 0;
+}
+
+#submit {
+	width: 75px;
+	margin: 0;
+	border-top: 1px solid #BBB;
+	border-right: 1px solid #999;
+	border-bottom: 1px solid #999;
+	border-left: 1px solid #BBB;
+}
+
+br {
+	clear: left;
+}
+
+ul {
+	margin-top: 0;
+}
+
+.calendar {
+	border: 1px solid #000;
+	border-collapse: collapse;
+}
+
+.calendar caption {
+	border-top: 1px solid #000;
+	border-right: 1px solid #000;
+	border-left: 1px solid #000;
+	caption-side: top;
+	font-weight: bold;
+	padding: 5px 0;
+}
+
+.calendar th {
+	background: #eee;
+	padding: 5px 8px;
+	border-bottom: 1px solid #000;
+}
+
+.calendar td {
+	background: #fff;
+	padding: 5px 8px;
+	text-align: right;
+/*	vertical-align: top; */
+/*	width: 50px; */
+/*	height: 50px; */
+/*	border-bottom: 1px solid #ccc; */
+/*	border-left: 1px solid #ccc; */
+}
+
+.calendar .today {
+	background: #eee;
+}

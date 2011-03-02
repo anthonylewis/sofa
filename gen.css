@@ -1,0 +1,13 @@
+
+h1 { font-size: 1.5em; margin: 0; padding: 0 }
+table { margin: 10px 0; }
+th { background: #ddd; color: #333; padding: 5px 10px; }
+td { background: #fff; color: #333; padding: 5px 10px; }
+form { float: left; }
+fieldset { float: left; padding: 10px; border: 1px solid #ccc; }
+legend { font-weight: bold; color: #000; }
+input { width: 200px; }
+textarea { width: 200px; height: 100px; }
+.button { width: 5em; margin: 10px 0 0 0; display: block; }
+label { font-weight: bold; padding: 4px 1px 1px 1px; display: block; }
+#footer { clear: both; }
